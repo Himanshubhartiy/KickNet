@@ -1,0 +1,80 @@
+body{padding: 0;margin: 0;}
+nav{background-color: #B8DEFF;border-radius:0px 0px 30px 30px;}
+.banner{margin-top: 100px;}
+.about{margin-top: 60px;}
+
+.dropdown-item{font-size: 13px;}
+.box{box-shadow: 10px  10px ;}
+footer{border-radius: 120px 0px;}
+.slider{margin-bottom: 100px;}
+
+/* buttons */
+.btn-primary{background-color: #fbfbfb;border: none;}
+.btn-secondary{background-color:#91ccff;border: none;}
+
+/* card */
+.card-dress{box-shadow:10px 15px 15px 15px rgba(75, 74, 74, 0.1),0 4px 6px -4px rgba(141, 136, 136, 0.1);}
+.card-dress:hover{ box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);}
+.card{width: 350px; background-color: #c1f1f1;}
+
+/* Footer */
+.footer .dots-group { right: 10px;top:-40px;}
+.footer .zigzag-lines { bottom:0;}
+.footer { background-color:#EFF1FD;}
+.about-company { padding:80px 0;}
+.grabstar-logo { max-width:170px;}
+.copyright-ofspace { font-size:12px;color:#26395999;}
+.footer p:hover { color:#000000;}
+.social-image { background-color:#FFFFFF;width:50px;height:50px;box-shadow:0 12px 30px 0 rgba(0, 0, 0, 0.08);} 
+.social-image svg path { fill:#263959;}
+.social-image:hover { background-color:#263959;}
+.social-image:hover svg path { fill:#FFFFFF;}
+
+/* Carousel */
+.carousel-item {transition: transform 0.5s ease-in-out;}
+.carousel-inner img {height: auto;max-height:600px;object-fit: cover;}
+
+/* about */
+.about{  background-image: linear-gradient(#FAFAFA, #B8DEFF);}
+
+/* card */
+.card-dress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .card-image {
+    width: 350px; 
+    height: 300px; 
+    object-fit: cover;
+  }
+  
+  .card-title {
+    margin: 0.5rem 0;
+  }
+  
+  .card-description {
+    color: #666; 
+  }
+  
+  
+  @media (max-width: 576px) {
+    .card-image {
+      width: 100%; 
+      height: auto; 
+    }
+  }
+  @media (max-width: 810px) {
+    .card-image {
+      width: 100%; 
+      height: auto; 
+    }
+  }
+
+  
+
+
+
